@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Львів Home Automation</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
-        
+
         <nav>
             <img id="logo" src="img/logo.png" alt="Логотип">
             <h1>Львів Home Automation</h1>
@@ -16,19 +18,48 @@
             <a href="services.html">Послуги</a>
             <a href="about.html">Про нас</a>
             <a href="contact.html">Контакти</a>
-            
+
         </nav>
     </header>
     <main>
 
+        <br>
+        <br>
+        <div class="contacts">
+            <h2>Наші контакти</h2>
+            <ul>
+                <li><strong>Адреса:</strong> м. Львів, вул. Технічна, 15</li>
+                <li><strong>Телефон:</strong> <a href="tel:+380123456789">+38 (012) 345-67-89</a></li>
+                <li><strong>Email:</strong> <a href="mailto:info@homeassistant.com">info@homeassistant.com</a></li>
+                <li><strong>Графік роботи:</strong> Пн-Пт: 9:00 – 18:00, Сб-Нд: вихідні</li>
+            </ul>
+        </div>
+        <br>
+
+        <form class="feedback-form" action="/submit" method="post">
+            <h2>Зворотний зв'язок</h2>
+
+            <label for="name">Ваше ім'я:</label>
+            <input type="text" id="name" name="name" placeholder="Введіть ваше ім'я" required>
+
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" name="email" placeholder="Введіть вашу електронну пошту" required>
+
+            <label for="message">Ваше повідомлення:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Напишіть ваше повідомлення" required></textarea>
+
+            <button type="submit">Надіслати</button>
+        </form>
 
 
 
 
-        
+
+
     </main>
     <footer>
         <p>&copy; 2024 Веб-проєкт. Всі права захищені.</p>
     </footer>
 </body>
+
 </html>

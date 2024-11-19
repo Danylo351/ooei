@@ -100,3 +100,94 @@ h1{
     background-color: #e8f5fe;
 }
 
+.feedback-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.feedback-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.feedback-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+    border-color: #2c3e50;
+    outline: none;
+}
+
+.feedback-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+    background-color: #1a242f;
+}
+
+.contacts {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contacts h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contacts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacts li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.contacts a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+}
