@@ -71,3 +71,31 @@ h1{
     margin-right: auto;
     width: 50%;
 }
+
+.services-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+.services-table thead {
+    background-color: #333;
+    color: #fff;
+}
+
+.services-table th,
+.services-table td {
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+}
+
+.services-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.services-table tbody tr:hover {
+    background-color: #e8f5fe;
+}
